@@ -25,14 +25,14 @@ app.use('/document', docUploader);
 app.use('/livechat', liveChat);
 app.use('/search', search);
 
-// default   
-app.get('/', (req, res) => {
-    res.cookie("myvariable", "value", {
-        expires: new Date(Date.now() + 258900),
-        httpOnly: true
-    });
-    res.send('hello world!!');
-});
+// // default   
+// app.get('/', (req, res) => {
+//     res.cookie("myvariable", "value", {
+//         expires: new Date(Date.now() + 258900),
+//         httpOnly: true
+//     });
+//     res.send('hello world!!');
+// });
 
 
 app.get('/verify/user', AuthBoth, async (req, res) => {
