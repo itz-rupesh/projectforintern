@@ -1,0 +1,34 @@
+.cancel-btn {
+    border-radius: 5px;
+    color: rgb(255, 0, 0);
+    border-style: solid;
+    border-color: red;
+    /* background-color: #eb0000; */
+    width: auto;
+    height: inherit;
+    padding: 5px 20px;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    /* border-color: transparent; */
+    /* font-family: 'Georgia', Times, 'Times New Roman', serif; */
+    font-weight: bold;
+    word-spacing: normal;
+    letter-spacing: 1px;
+
+}
+
+.cancel-btn:hover,
+.cancel-btn:active {
+    background-color: white;
+    border-color: #ff0303;
+    color: #eb0000;
+    border-style: solid;
+    font-weight: bold;
+}
+
+.cancel-btn:disabled {
+    background-color: #7b7b7b;
+    color: white;
+    cursor: progress;
+}

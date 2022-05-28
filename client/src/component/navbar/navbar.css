@@ -1,0 +1,51 @@
+.nav-div {
+    display: flex;
+    flex-direction: row;
+    background-color: #000000;
+}
+
+/* logo text  */
+.logo-text {
+    font-family: 'Marck Script', cursive;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.nav-list {
+    margin-left: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+}
+
+.nav-linkk {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+
+}
+
+.nav-linkk:hover,
+.nav-linkk:active {
+    color: #3b53f2;
+}
+
+.navbar-nav>li {
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 40px;
+}
+
+.navbar {
+    box-shadow: 1px -6px 35px #2e2e2e;
+}
+
+
+@media (max-width: 990px) {
+    .logo-text {
+            font-size:1.3rem;
+        }
+}
+@media (max-width: 400px) {
+    .logo-text {
+        font-size: 1.0rem;
+    }
+}

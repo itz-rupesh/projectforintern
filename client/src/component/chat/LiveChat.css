@@ -1,0 +1,261 @@
+
+
+
+
+
+.search {
+    position: relative;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1);
+
+}
+
+.search input {
+    height: 50px;
+    text-indent: 25px;
+    border: 2px solid #d6d4d4;
+}
+
+
+.search input:focus {
+
+    box-shadow: none;
+    border: 2px solid rgb(101, 101, 101);
+
+
+}
+
+.search .fa-search {
+
+    position: absolute;
+    top: 20px;
+    left: 16px;
+
+}
+
+.search button {
+
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    height: 40px;
+    width: 80px;
+    background: rgb(0, 0, 0);
+    /* outline: none; */
+    color: white;
+    border-radius: 5px;
+}
+
+.search button:hover,
+.search button:active {
+
+
+    background: rgb(255, 255, 255);
+    /* outline: none; */
+    color: rgb(0, 0, 0);
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    /* border-radius: 5px; */
+}
+
+/*  chatContact style  */
+.chat-container {
+    border: solid;
+    border-color: #a5a2a2;
+    border-width: 1px;
+    border-radius: 10px;
+    max-width: 700px;
+    /* height: 80vh; */
+    /* overflow: hidden; */
+    position: relative;
+    box-shadow: 0px 10px 40px rgba(51, 51, 51, .1);
+}
+
+.search-bar-chat {
+    position: absolute;
+    top: 7px;
+    z-index: 1;
+    background-color: white;
+
+}
+
+.contect-list {
+    margin: auto;
+    overflow-x: scroll;
+    height: 74vh;
+
+}
+
+.contact-list-item {
+    background-color: black;
+    color: white;
+    display: flex;
+    border-radius: 15px;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2px;
+}
+
+.contact-item-user-email {
+    font-size: smaller;
+    color: #807f7f;
+}
+
+.last-message {
+    color: #807f7f;
+    font-size: smaller;
+}
+
+.unseen-msg-count {
+    background-color: red;
+    color: white;
+    /* height: fit-content; */
+
+    text-align: center;
+    border-radius: 30px;
+    font-size: small;
+    padding: 0px 7px 0px 7px;
+    position: absolute;
+    right: 10px;
+    top: 25px;
+}
+
+/* conversation componet style */
+.Chat-Header {
+    position: absolute;
+    top: 0px;
+    border-radius: 10px 10px 0px 0px;
+    z-index: 1;
+    background-color: rgb(13, 11, 11);
+    color: white;
+    box-shadow: 0px 7px 50px rgb(184, 184, 184);
+}
+
+.chat-header-row {
+    display: flex;
+}
+
+.chat-header-row .close {
+    background: none;
+    /* box-shadow: 30px 30px 60px 5px #bebebe; */
+    color: rgb(255, 0, 0);
+    position: absolute;
+    right: 10px;
+}
+
+.chat-header-row .refresh {
+    /* background: white; */
+    /* box-shadow: 30px 30px 60px 5px #bebebe; */
+    color: rgb(41, 137, 227);
+    position: absolute;
+    right: 60px;
+
+}
+
+.chat-header-row .send {
+    /* background: white; */
+    /* box-shadow: 30px 30px 60px 5px #bebebe; */
+    color: rgb(41, 137, 227);
+    /* position: absolute;
+    right: 2%; */
+
+}
+
+.Chat-Bottom {
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 10px 10px;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 2px 20px rgb(184, 184, 184);
+}
+
+.type-message-input {
+    max-height: 100px;
+    border-radius: 15px;
+    /* height: 50px; */
+    text-indent: 25px;
+    border: 2px solid #606060;
+    /* background-color: black; */
+    /* color: white; */
+
+}
+
+.type-message-input:focus {
+    box-shadow: none;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.profile-image-chat-message {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid;
+    border-color: rgb(207, 207, 207);
+    border-width: 2px;
+}
+
+.message-container-recieved {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+
+}
+
+.message-container-send {
+    display: flex;
+    justify-content: left;
+
+}
+
+.message-text-send {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    border-radius: 0px 20px 20px 20px;
+    max-width: 300px;
+    font-size: small;
+}
+
+.message-text-recieved {
+    color: white;
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    border-radius: 20px 0px 20px 20px;
+    max-width: 300px;
+    font-size: small;
+}
+
+.Dummy-Div {
+    background-color: white;
+    width: 100%;
+    height: 10px;
+    padding-bottom: 100px;
+}
+.no-conversation-found-msg{
+     background-color: rgb(213, 213, 213);
+     color: rgb(255, 255, 255);
+    display: flex;
+    justify-content:center;
+    align-items: center;
+     border-radius: 15px;
+     max-width: 150px;
+}
+
+.profile-link-from-chat{
+    cursor: pointer;
+    border-radius: 10px;
+}
+.profile-link-from-chat:hover {
+    background-color: #212121;
+}

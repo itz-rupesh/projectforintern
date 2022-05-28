@@ -1,0 +1,24 @@
+.ellips-btn{
+    border-radius: 5px;
+  color:white ;
+  background-color: #0077eb;
+  width: auto;
+  /* height: 45px; */
+  padding: 8px 10px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  outline: none;
+  border-color: transparent;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-weight: bold;
+  word-spacing:normal;
+  letter-spacing: 1px;
+
+}
+.ellips-btn:hover, .ellips-btn:active{
+    background-color: white;
+    border-color:#0077eb ;
+    color: #0077eb;
+    border-style:solid;
+    font-weight: bold; 
+  }
